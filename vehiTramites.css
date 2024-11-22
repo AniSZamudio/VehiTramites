@@ -1,0 +1,363 @@
+.header{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    height: 8rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+.header img{
+    height: 5rem;
+}
+
+.imgWomanDrive{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+}
+
+.firtsFrame{
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0;
+}
+
+.content1{
+    display: flex;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.content1 strong {
+    color: #227994;
+}
+
+.box-content{
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+.circle{
+    background: #ffdc7f;
+    height: 26rem;
+    width: 26rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn {
+    color: white !important;
+    background-color: #227b94 !important;
+    border-radius: 2rem !important;
+    width: auto;
+    font-size: 35px !important;
+    padding: 0 2rem !important;
+}
+
+.content2{
+    background-color: #f2f4f4;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 3rem 0;
+}
+
+.list {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    justify-content: center;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    align-items: center;
+  }
+
+  .list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item {
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+  
+    background-color: #FFF;
+  
+    scroll-snap-align: center;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+  }
+
+  li.item img {
+    width: 15rem;
+}
+
+.carouselClients div:first-child{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: #227b94;
+    font-size: 26px;
+}
+
+.Content2{
+    background-color: #227b94;
+    color: white;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+}
+.Content2 div{
+    margin: 3rem;
+}
+
+.Content2 .btn.yellow{
+    margin: 1rem 32%;
+}
+.btn.yellow{
+    background-color: #ffdc7f !important;    
+}
+.dot{
+    border-radius: 50% !important;
+    height: 1rem !important;
+    width: 1rem !important;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards div{
+    display: flex;
+}
+
+.services{
+    background: url('RecursosWebPage/Fondos/FondoAngosto.svg');
+}
+
+.services h1{
+    color: #227b94;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cards div p {
+    background: #f2f4f4;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.country{
+    background-color: #78b7d0;
+    display: flex;
+    color: white;
+    padding: 3rem;
+    height: 40rem;
+    justify-content: space-around;
+}
+.country strong{
+    color: #ffdc7f;
+}
+
+.country h1:first-child{
+    margin-top: 4rem;
+}
+
+.country img{
+    height: 30rem;
+    width: 30rem;
+}
+
+.text {    
+    background: url('RecursosWebPage/Fondos/FondoAngosto.svg');
+    height: 15rem;
+    margin-top: 14rem;
+    display: flex;
+    justify-content: center;
+}
+
+.text div{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    height: 70%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text strong{
+    color: #227994;
+}
+
+.footer{
+    background-color: #227994;
+    color: white;
+    padding-top: 2rem;
+}
+
+.footer div:first-child{    
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer strong{
+    color: #ffdc7f;
+}
+.footer a{
+    color: #ffdc7f;
+}
+
+.more-information p{
+    background-color: white;
+    border-radius: 2rem;
+    color: gray;
+    width: 29rem;
+    height: 2rem;
+    padding: 2px 1rem;
+}
+
+.more-information button{
+    background-color: #78b7d0;
+    height: 1.5rem;
+    width: 10rem;
+    border: 0;
+    border-radius: 1rem;
+    color: white;
+    padding: 0rem;
+    position: relative;
+    bottom: 2rem;
+    left: 19.5rem;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1.5rem;
+}
+
+.mission-vision {
+    background-color: #227b94;
+    margin: 33rem;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    padding: 3rem;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 90%;
+}
+
+.mission-vision h1{
+    margin: 0 0 2rem !important;
+}
+
+.mission-vision button{
+    margin-left: 5rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts img{
+    height: 4rem;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-dots .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-dots .dot.active {
+    background-color: #333;
+}
+
+div#carousel1 img {
+    width: 20rem;
+}
+
+div#carousel1 {
+    height: 20rem;
+}
