@@ -86,9 +86,31 @@ class Carousel {
         window.addEventListener('resize', () => this.updateCarousel());
     }
 }
+document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl, {
+            trigger: 'manual'
+        });
+    });
+    tooltipTriggerList.forEach(function (tooltipTriggerEl, index) {
+        tooltipTriggerEl.addEventListener('click', function (event) {
+            event.stopPropagation();
+            closeAllTooltips();
+            tooltipList[index].show();
+        });
+    });
 
-document.querySelectorAll('.carousel').forEach(carouselElement => {
-    new Carousel(carouselElement);
+    document.addEventListener('click', function () {
+        closeAllTooltips();
+    });
+
+    function closeAllTooltips() {
+        tooltipList.forEach(function (tooltip) {
+            tooltip.hide();
+        });
+    }
 });
+
 
 
