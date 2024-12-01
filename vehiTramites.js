@@ -86,7 +86,18 @@ class Carousel {
         window.addEventListener('resize', () => this.updateCarousel());
     }
 }
-
+document.addEventListener('DOMContentLoaded', function () {
+    const carouselElement1 = document.querySelector('#carousel1');
+    const carouselElement2 = document.querySelector('#carousel2')
+    if (carouselElement1 && carouselElement2) {
+        new Carousel(carouselElement1);
+        new Carousel(carouselElement2);
+    }
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+});
 
 
 

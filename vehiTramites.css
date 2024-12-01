@@ -15,6 +15,10 @@
     height: 4rem;
 }
 
+#up-page img{
+    height: 3rem !important;
+}
+
 .imgWomanDrive {
     width: 20rem;
     height: 20rem;
@@ -66,10 +70,11 @@ li.item img {
 }
 
 .Content2 {
-    background-color: #227b94;
+    background-image: url('RecursosWebPage/Fondos/Fondo\ angosto\ oscuro.svg');
     color: white;
     padding: 30px;
     text-align: center;
+    background-size: cover;
 }
 
 .Content2 div {
@@ -189,6 +194,11 @@ li.item img {
 
 .contacts img {
     height: 4rem;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
 }
 
 .carousel {
