@@ -33,7 +33,7 @@
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10% !important;
 }
 
@@ -42,6 +42,7 @@
     font-size: 40px;
     line-height: 1;
     margin-bottom: 1rem;
+    margin-left: 5rem;
     flex-direction: column;
 }
 
@@ -72,7 +73,7 @@ li.item img {
 .Content2 {
     background-image: url('RecursosWebPage/Fondos/Fondo\ angosto\ oscuro.svg');
     color: white;
-    padding: 30px;
+    padding: 5rem;
     text-align: center;
     background-size: cover;
 }
@@ -81,7 +82,9 @@ li.item img {
     margin: 3rem;
 }
 
-.btn.btn-custom {
+.btn.btn-custom {    
+    width: 15rem;
+    height: 3rem;
     background-color: #ffdc7f !important;
     max-width: 25rem;
 }
@@ -193,7 +196,8 @@ li.item img {
 }
 
 .contacts img {
-    height: 4rem;
+    height: 5rem;
+    margin: 2rem -0.5rem;
 }
 
 .contacts a {
@@ -262,7 +266,8 @@ li.item img {
 }
 
 div#carousel1 img {
-    width: 20rem;
+    width: 10rem;
+    margin: 0 3rem;
 }
 
 div#carousel1 {
@@ -298,7 +303,7 @@ div#carousel1 {
     object-fit: cover;
     position: absolute;
     top: -7rem;
-    left: 26%;
+    left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
     padding: 10px;
@@ -318,6 +323,7 @@ div#carousel1 {
 .service-box p {
     color: #555;
     font-size: 14px;
+    margin-top: 1rem;
 }
 
 
@@ -333,6 +339,10 @@ div#carousel1 {
     font-weight: bold;
 }
 
+#map-text{
+    font-size: 45px;
+}
+
 .image-container {
     position: relative;
     width: 100%;
@@ -342,7 +352,7 @@ div#carousel1 {
 }
 
 .image-container img {
-    width: 100%;
+    width: 115%;
     border-radius: 8px;
 }
 
@@ -357,42 +367,42 @@ div#carousel1 {
 }
 .point-1 {
     top: 21%;
-    left: 38%;
+    left: 43%;
 }
 
 .point-2 {
     top: 26%;
-    left: 36%;
+    left: 42%;
 }
 
 .point-3 {
     top: 52%;
-    left: 32%;
+    left: 35%;
 }
 
 .point-4 {
     top: 66%;
-    left: 31%;
+    left: 35%;
 }
 
 .point-5 {
     top: 21%;
-    left: 46%;
+    left: 53%;
 }
 
 .point-6 {
     top: 79%;
-    left: 23%;
+    left: 27%;
 }
 
 .point-7 {
     top: 75%;
-    left: 29%;
+    left: 32%;
 }
 
 .point-8 {
     top: 66%;
-    left: 43%;
+    left: 49%;
 }
 
 .vehitramites-section {
@@ -407,7 +417,7 @@ div#carousel1 {
 }
 
 .vehitramites-section h2 {
-    font-size: 36px;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -428,7 +438,7 @@ div#carousel1 {
 
 .big-phrase {
     font-family: ErasMediumITC;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .btn {
@@ -443,7 +453,7 @@ div#carousel1 {
 
 .texts{
     font-family: ErasMediumITC;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
