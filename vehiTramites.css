@@ -82,8 +82,7 @@ li.item img {
     margin: 3rem;
 }
 
-.btn.btn-custom {    
-    width: 15rem;
+.btn.btn-custom {
     height: 3rem;
     background-color: #ffdc7f !important;
     max-width: 25rem;
