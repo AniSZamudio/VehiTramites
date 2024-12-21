@@ -294,6 +294,7 @@ div#carousel1 {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: visible;
+    margin: 1.5rem;
 }
 
 .service-box img {
@@ -308,7 +309,7 @@ div#carousel1 {
     padding: 10px;
 }
 
-.col-md-6.col-lg-2.m-4.service-box {
+.col-md-6.col-lg-2.service-box {
     margin-top: 10rem !important;
 }
 
@@ -489,6 +490,48 @@ div#carousel1 {
         margin-top: 25% !important;
     }
 
+}
+
+@media screen and (max-width: 587px) {
+    .image-container img{
+        width: auto !important;
+    }
+    
+    .point-1 {
+        left: 37%;
+    }
+    
+    .point-2 {
+        left: 36%;
+    }
+    
+    .point-3 {
+        left: 31%;
+    }
+    
+    .point-4 {
+        left: 30%;
+    }
+    
+    .point-5 {
+        left: 45%;
+    }
+    
+    .point-6 {
+        left: 24%;
+    }
+    
+    .point-7 {
+        left: 28%;
+    }
+    
+    .point-8 {
+        left: 42%;
+    }
+
+    .service-box{
+        margin: 0!important;
+    }
 }
 
 @font-face {
